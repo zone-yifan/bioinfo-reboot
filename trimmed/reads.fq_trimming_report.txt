@@ -1,0 +1,50 @@
+SUMMARISING RUN PARAMETERS
+=========================
+Input filename: reads.fq
+Trimming mode: single-end
+Trim Galore version: 2.3.0
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (user-specified or auto-detected)
+Maximum trimming error rate: 0.1
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length single-end: 20 bp
+
+
+Trim Galore 2.3.0 — adapter trimming built in
+This is cutadapt 4.0 (compatible; for MultiQC backwards compatibility)
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC reads.fq
+Processing reads on 1 core in single-end mode ...
+
+=== Summary ===
+
+Total reads processed:                  500
+Reads with adapters:                    166 (33.2%)
+Reads written (passing filters):        500 (100.0%)
+
+Total basepairs processed:         37,500 bp
+Quality-trimmed:                        0 bp (0.0%)
+Total written (filtered):          37,281 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 166 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	129	125.0	0	129
+2	24	31.2	0	24
+3	10	7.8	0	10
+4	3	2.0	0	3
+
+
+RUN STATISTICS FOR INPUT FILE: reads.fq
+=============================================
+500 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	0 (0.0%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Sequences removed because of too many N bases:	0 (0.0%)
+

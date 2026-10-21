@@ -1,0 +1,3 @@
+Sample	Top overrepresented sequence	Sum of remaining overrepresented sequences
+reads	0.2	99.80000000000088
+reads_trimmed	0.2	99.80000000000088

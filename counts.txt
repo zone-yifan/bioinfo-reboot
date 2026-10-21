@@ -1,0 +1,7 @@
+# Program:featureCounts v2.1.1; Command:"featureCounts" "-a" "sarscov2.gtf" "-o" "counts.txt" "-t" "exon" "-g" "gene_id" "aln.bam" 
+Geneid	Chr	Start	End	Strand	Length	aln.bam
+ORF1ab	NC_045512.2	266	21555	+	21290	345
+S	NC_045512.2	21563	25384	+	3822	71
+E	NC_045512.2	26245	26472	+	228	5
+M	NC_045512.2	26523	27191	+	669	7
+N	NC_045512.2	28274	29533	+	1260	24

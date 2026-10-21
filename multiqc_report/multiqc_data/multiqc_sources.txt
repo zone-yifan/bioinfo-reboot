@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	reads	/home/zhao/bioinfo-reboot/fastqc_raw/reads_fastqc.zip
+FastQC	all_sections	reads_trimmed	/home/zhao/bioinfo-reboot/fastqc_trim/trim_report_fastqc.zip

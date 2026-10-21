@@ -1,0 +1,3 @@
+Sample	Unique Reads	Duplicate Reads
+reads	500.0	0.0
+reads_trimmed	500.0	0.0
