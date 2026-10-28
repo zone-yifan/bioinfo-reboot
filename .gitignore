@@ -1,0 +1,11 @@
+# 中间产物 / 大文件
+*.bam
+*.bam.bai
+*.sam
+*.mmi
+*.fa.gz
+*.fq.gz
+trimmed/
+fastqc_raw/
+fastqc_trim/
+multiqc_report/
